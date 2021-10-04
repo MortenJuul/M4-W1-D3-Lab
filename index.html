@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Module 4 Week 1 Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+</head>
+<body>
+    
+<div class="main-wrapper">
+  
+    <div class="header">
+        <h1>Fresh Food To Go</h1>
+    </div>
+    <div class="food-container" v-if"dishes">
+        <h2>Selections</h2>
+    <div class='row' id="vue" v-for="dish in dishes">
+        <div class='col' v-for="item in dish" v-html="generateDish(item)"></div>
+    </div>
+    </div>
+
+</div>
+<script>
+    let vm = new Vue({
+        el: '#vue',
+        data() {
+            return {
+                dishes: null
+            }
+        },
+        mounted(){
+            fetch('./food.json')
+                .then(res => res.json())
+                .then(data => this.dishes = data)
+                .catch(err => console.log(err.message));
+        },
+        methods: {
+            generateDish(item){
+                    return `
+                        <div class='col-${item.id} col'>
+                        <div class='imgContainer'>
+                        <img src='${item.url}' alt='${item.alt}' title='${item.title}'/>
+                        </div>
+                        <div class='textContainer'>
+                        <h3>${item.title}</h3>
+                        <p>${item.tagline}</p>
+                        <button class='center'>Add to Cart</button>
+                        </div>
+                        </div>`
+            }
+        }
+    });    
+</script>
+</body>
+</html>

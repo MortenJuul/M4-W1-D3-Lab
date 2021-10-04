@@ -1,0 +1,88 @@
+{
+    "dishes": [
+        {
+            "id": 1,
+            "title": "Pasta",
+            "tagline": "Healthy Pasta",
+            "alt": "pasta dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Spaghetti_aglio%2C_olio_e_peperoncino_%2816284859030%29.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Red Crab",
+            "tagline": "Fresh from Alaska",
+            "alt": "crab dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jacques_Lameloise%2C_escab%C3%A8che_d%27%C3%A9crevisses_sur_gaspacho_d%27asperge_et_cresson.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Breakfast Special",
+            "tagline": "Good for the soul",
+            "alt": "breakfast dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Breakfast_at_Irving_Street_Kitchen.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Sea Shell Mix",
+            "tagline": "For the shell lovers",
+            "alt": "sea shell dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Seafood_linguine.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Ultimate Kebab",
+            "tagline": "The best from Middle East",
+            "alt": "kebab dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Various_kebab.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Chicken Steak",
+            "tagline": "Grilled to perfection",
+            "alt": "chicken dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Chicken_steak_with_pepper_sauce.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Filet Mignon",
+            "tagline": "Juicy steak served with potatoes au gratin",
+            "alt": "filet mignon dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/.Filet_mignon_et_foie_gras_au_muscat_de_Beaumes-de-Venise%2C_Pastis_Bistro%2C_Palo_Alto.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Bistro Brunch",
+            "tagline": "A touch of Australia",
+            "alt": "brunch dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Dishes_at_Bistro_C%2C_Hastings_Street%2C_Noosa_Heads%2C_Queensland_02.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Californian Crepe",
+            "tagline": "Stuffed with grilled shrimp",
+            "alt": "crepe dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/2011-04-09_17.02.43%2C_Whispers_Cafe_and_Creperie%2C_Belmont%2C_CA_%285982715933%29.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Top burger",
+            "tagline": "The tallest hamburger from Peru",
+            "alt": "burger dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Hamburguesa_de_carne.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Chicken Garlic Pizza",
+            "tagline": "Our speciality pizza",
+            "alt": "pizza dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Round_Table_chicken_%26_garlic_pizza.JPG"
+        },
+        {
+            "id": 12,
+            "title": "Wok Away Healthy",
+            "tagline": "Healthy blend of noodles and veggies",
+            "alt": "wok dish",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Stir_Fry_Wok_-_Free_For_Commercial_Use_-_FFCU_%2827159057131%29.jpg"
+        }
+    ]
+}
